@@ -1,0 +1,36 @@
+.insert-modal {
+	width: 50%;
+	height: 60%;	
+	margin: 0 auto;
+	background-color: #eee;	
+	position: fixed;	
+	left: 25%;
+	right: 25%;	
+	top: 0;	
+}
+
+form .title{
+	text-align: center;
+}
+
+form .row{
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+}
+form .row>label{	
+	display: inline-block; 
+	width: 30%;	
+	text-align: left;
+}
+form .row>input{
+	display: inline-block;		
+}
+
+form .error-validation{
+	width: 100%;
+	display: block;
+	text-align: center;
+	color: red;
+}

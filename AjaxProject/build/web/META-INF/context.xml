@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/Project">
+    <Resource 
+        name="DYNAMIC_DB"
+        type="javax.sql.DataSource"
+        auth="Container"
+        driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+        url="jdbc:sqlserver://localhost:1433;databaseName=AJAX_DB;instanceName=DATTTSE62330\SQLEXPRESS"        
+        username="sa"
+        password="tiendat"
+    />
+</Context>
